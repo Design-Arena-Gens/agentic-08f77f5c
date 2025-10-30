@@ -1,0 +1,59 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f8f5f1;
+  color: #1f1a14;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+}
+
+h1,
+ h2,
+ h3 {
+  line-height: 1.3;
+  color: #2c1d10;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.highlight {
+  background: #fff3d6;
+  border-left: 4px solid #b57c3d;
+  padding: 16px;
+}
+
+.image-prompt {
+  border: 1px dashed #8c5b27;
+  background: #fdf6ea;
+  padding: 16px;
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+strong {
+  color: #2e1100;
+}
